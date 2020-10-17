@@ -1,13 +1,8 @@
 #!/bin/sh
+#
+# Get windows class for use with i3.
 
-# i3-get-window-criteria - Get criteria for use with i3 config commands
 
-# To use, run this script, then click on a window.
-# Output is in the format: [<name>=<value> <name>=<value> ...]
-
-# Known problem: when WM_NAME is used as fallback for the 'title="<string>"' criterion,
-# quotes in "<string>" are not escaped properly. This is a problem with the output of `xprop`,
-# reported upstream: https://bugs.freedesktop.org/show_bug.cgi?id=66807
 
 PROGNAME=`basename "$0"`
 
