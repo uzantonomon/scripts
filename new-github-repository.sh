@@ -22,3 +22,5 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin git@github.com:uzantonomon/"$REPO_NAME".git
 git push -u origin main
+
+cd ~/projects/$REPO_NAME
